@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <script>
+
+        function mensaje() {
+            document.write("Cuidado !!!!!");
+            document.write("Suba nuevamente el archivo");
+        }
+
+        /* mensaje();
+        document.write("<br>");
+        mensaje();
+  */
+        function mostrar(inicio, fin) {
+            for (let i = inicio; i < fin; i++) {
+                document.write(i+" ");
+                /* document.write("<br>"); */
+            }
+        }
+
+ /*        let v1 = parseInt(prompt("Ingrese el inicio : "));
+        let v2 = parseInt(prompt("Ingrese el fin : "));
+
+         mostrar(v1,v2);
+ */
+
+        function espanol(n){
+            if(n == 1){
+                return "uno";
+            }
+            else{
+                return "dos";
+            }
+        }
+
+        let valor = parseInt(prompt("ingrese numero: "));
+        
+        let x = espanol(valor);
+
+        document.write(x);
+
+        espanol
+
+    </script>
+</body>
+
+</html>
