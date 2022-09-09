@@ -11,7 +11,7 @@
 <body>
 
     <script>
-        function fechas() {
+/*         function fechas() {
             let fecha;
             fecha = new Date();
 
@@ -30,7 +30,7 @@
         document.write("<br>");
         document.write("<br>");
         document.write("<br>");
-
+        
         function cargar(sueldos) {
             for (let f = 0; f < sueldos.length; f++) {
 
@@ -47,20 +47,55 @@
 
 
         let sueldos;
-
+        
         sueldos = new Array(4);
-
+        
         cargar(sueldos);
-
+        
         for (let f = 0; f < sueldos.length; f++) {
-
+            
             document.write(sueldos[f] + "<br>");
+            
+        }
+         */
+
+        document.write("<br>");
+        document.write("<br>");
+        
+     /*    let seleccion = parseInt(prompt("Ingrese un valor: entre 0-10"));
+
+        let numero = parseInt(Math.random()*10+1);
+
+        if(numero == seleccion){
+
+            document.write("Usted gano la loteria");
+            
+        }
+        
+        else{
+
+            document.write("que mala suerte");
+            document.write(numero);
+            
+        } */
+
+        let frase = "Hola mundo";
+
+        let resultado = "";
+
+        for(let i = 0; i < frase.length-1 ; i++){
+
+            resultado += frase.charAt(i);
+
+            resultado += "-";
 
         }
 
+        resultado+=frase.charAt(frase.length-1);
 
-
-    </script>
+        document.write(resultado);
+        
+        </script>
 
 
 
